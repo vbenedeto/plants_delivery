@@ -4,8 +4,59 @@ body {
   padding: 0;
 }
 
-.container {
-  max-width: 1200px; 
-  margin: 0 auto;  
-  padding: 0 20px; 
+header, footer {
+  background-color: #1F2937;
+}
+
+header {
+  padding: 0 25em;
+  color: white;
+} 
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 32px;
+}
+
+li {
+  color: #9da0a8;
+}
+
+h1 {
+  width: 11em;
+  text-align: left;
+  font-weight: 900;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 5em 0;
+}
+
+.header-p {
+  width: 31em;
+  margin: 2px 0 24px 0;
+  color: #9da0a8;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  background: #3882F6;
+  padding: 9px 24px;
+  border-radius: 5px;
+}
+
+.header-pic {
+  width: 350px;
+  border-radius: 22px;
 }
