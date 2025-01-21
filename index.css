@@ -103,3 +103,26 @@ p {
   border-radius: 10px;
   margin-bottom: 3px;
 }
+
+.quote-section {
+  display: flex;
+  justify-content: center;
+  padding: 150px;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #E8F5E9;
+  background-color: #2A4634;
+}
+
+.quote-section > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 25em;
+}
+
+.quote-section p:nth-of-type(2) {
+  font-weight: 600;
+  align-self: flex-end;
+}
