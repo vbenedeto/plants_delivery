@@ -39,6 +39,12 @@ p {
   margin: 0;
 }
 
+footer {
+  color: #E8F5E9;
+  padding: 25px;
+  text-align: center;
+}
+
 #logo {
   font-size: 24px;
 }
